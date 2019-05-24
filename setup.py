@@ -55,6 +55,14 @@ dependency_links.append('git+https://github.com/jcavallo/trytond@test_pip#egg=tr
 if minor_version % 2:
     dependency_links.append('https://trydevpi.tryton.org/')
 
+print("name : ", name)
+print("version : ", version)
+print("Download URL : ", download_url)
+print("Info :", info)
+print("Requires : ", requires)
+print("Dependencies : ", dependency_links)
+print("Test : ", tests_require)
+
 setup(name=name,
     version=version,
     description='api token module of tryton',
