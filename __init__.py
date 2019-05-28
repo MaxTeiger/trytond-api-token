@@ -6,5 +6,5 @@ from . import _token
 
 def register():
     Pool.register(
-        token.Token,
+        _token.Token,
         module='api_token', type_='model')
